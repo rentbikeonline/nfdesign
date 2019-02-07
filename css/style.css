@@ -30,10 +30,17 @@ a.navbar-brand {
 }
 .wrapper {
     background-image: url(../images/banner.png);
+    
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: -webkit-fill-available; 
 }
 .about_img {
     margin: -77px 0px 0px 0px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
